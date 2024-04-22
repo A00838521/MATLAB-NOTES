@@ -26,6 +26,6 @@ function biseccion_A2(xai, xbi, tol, f)
             i=i+1;
         end
     else
-        fprintf('No existe una raíz en ese intervalo');
+        fprintf('No existe una raíz en ese intervalo\n');
     end
 end

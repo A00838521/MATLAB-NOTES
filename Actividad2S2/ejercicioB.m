@@ -1,9 +1,9 @@
 clc; clear all;
-a = -1;
-b = 0;
+a = 0;
+b = 1;
 iteraciones = 100;
 tol = 0.01;
-f = x-cos(x);
+f = x*e^(x)-1;
 biseccion_A2(a, b, tol,f);
 disp("------------------------")
 NewtonRaphson_A3(f, a, iteraciones, tol);

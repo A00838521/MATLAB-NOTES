@@ -1,5 +1,4 @@
 function NewtonRaphson_A3(f, x0, n, tol)
-    syms x;
     df = diff(f);
     for k = 1:n
         x1 = x0 - subs(f,x0)/subs(df,x0);
